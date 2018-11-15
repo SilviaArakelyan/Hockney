@@ -9,35 +9,48 @@
   font-family: "SF UI Text";
   font-weight: normal;
 
-  src: url("../fonts/SF UI Text/SF UI Text Regular.ttf") format("ttf")
+  src: url("../fonts/SF UI Text/SF UI Text Regular.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  font-weight: lighter;
+
+  src: url("../fonts/SF UI Text/SF UI Text Light.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "SF UI Text Semibold";
+
+  src: url("../fonts/SF UI Text/SF UI Text Semibold.otf") format("opentype")
 }
 
 @font-face {
   font-family: "GothamProBlack";
 
-  src: url("content/GothaPro/GothaProBlack.otf") format("opentype");
+  src: url("../fonts/GothaPro/GothaProBlack.otf") format("opentype");
 }
 
 @font-face {
   font-family: "GothamProBold";
 
-  src: url("content/GothaPro/GothaProBold.otf") format("opentype");
+  src: url("../fonts/GothaPro/GothaProBold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "GothamProLig";
 
-  src: url("content/GothaPro/GothaProLig.otf") format("opentype");
+  src: url("../fonts/GothaPro/GothaProLig.otf") format("opentype");
 }
 
 @font-face {
   font-family: "GothamProMed";
 
-  src: url("content/GothaPro/GothaProMed.otf") format("opentype");
+  src: url("../fonts/GothaPro/GothaProMed.otf") format("opentype");
 }
 
 @font-face {
   font-family: "GothamProReg";
 
-  src: url("content/GothaPro/GothaProReg.otf") format("opentype");
+  src: url("../fonts/GothaPro/GothaProReg.otf") format("opentype");
 }
